@@ -23,13 +23,13 @@ function Form({ onLoggedIn }) {
     <form>
       <Label
         type="text"
-        label="Username"
+        label="Username:"
         state={userName}
         onChange={handleUserName}
       />
       <Label
         type="password"
-        label="Password"
+        label="Password:"
         state={password}
         onChange={handlePassword}
       />
